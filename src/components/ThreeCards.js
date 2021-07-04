@@ -21,7 +21,7 @@ function ThreeCards() {
                         <Card.Text>
                             Some quick example text to build on the card 
                         </Card.Text>
-                        <Button variant="outline-danger">Check it out</Button>
+                        <Button variant="outline-danger" to="./categories.js">Check it out</Button>
                     </Card.Body>
                 </Card>
 

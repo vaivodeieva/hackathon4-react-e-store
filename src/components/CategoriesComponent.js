@@ -3,20 +3,11 @@ import img2 from '../images/categories-2.jpg';
 import img3 from '../images/categories-3.jpg';
 
 
-
 function CategoriesComponent() {
 
     return (
   
-
 <div>
-
-<div className="container-back-home mb-4">
-    <span> <a className="link-back-home" href="./index.html">Home &gt;</a> Categories</span>
-  </div>
-
-
-
 
   <div className="container-articles">
 
