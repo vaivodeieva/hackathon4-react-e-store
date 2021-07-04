@@ -158,7 +158,7 @@ function CategoryComponent() {
 
         <div className="col text-center">
          <div className="card" style={{ width: '14rem'}}>
-             <img src={img8} className="card-img-top" alt="Notice book Crocodile" />
+             <img src={img9} className="card-img-top" alt="Notice book Crocodile" />
              <div className="card-body">
                <h5 className="card-title">Crocodile</h5>
                <p className="card-text">1.40 EUR</p>
