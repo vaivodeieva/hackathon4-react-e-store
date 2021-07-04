@@ -31,8 +31,7 @@ function Header() {
                     </button>
                     <div className={mainMenuClasses} id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <img src={logo} style={{height: "40px"}}/>
-                            {/* <button className="nav-link" to="/page-100">TINY BOOKS</button> */}
+                            <img src={logo} style={{height: "42px"}}/>
                             <NavLink className="nav-link" exact to="/">Home</NavLink>
                             <NavLink className="nav-link" to="/categories">Categories</NavLink>
                             <NavLink className="nav-link" to="/cart">Cart</NavLink>
