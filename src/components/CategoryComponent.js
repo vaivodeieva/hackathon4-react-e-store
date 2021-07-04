@@ -64,7 +64,7 @@ function CategoryComponent() {
       <div className="row items" style={{margin: '13px'}}>
 
            <div className="col text-center">
-            <div className="card" style={{ width: '14rem', borderColor: 'green', borderBlockColor: 'green'}}>
+            <div className="card" style={{ width: '14rem'}}>
 <NavLink to="./product"><img src={img1} className="card-img-top" alt="Notice book Kitty"/></NavLink>
                 <div className="card-body" >
                   <h5 className="card-title ">Kitty</h5>
