@@ -16,17 +16,22 @@ function CategoriesComponent() {
   </div>
 
 
+
+
   <div className="container-articles">
 
     <span className="border-bottom">
-      <div class="row card border border-white w-auto cont-alig">
+
+      <div class="row border-white w-auto cont-alig">
         <div className="col-md-2 small-pic">
-          <img className="img-fluid" src={img1} alt="story books"/>
+          <img className="img-fluid" src={img1} alt="story books"/> 
+          
+
         </div>
         <div className="col-md-10">
           <div className="card-body">
             <h5 className="card-title">
-              <a className="header-color-1" href="./category-1.html">Tiny story books</a>
+              <a className="header-color-1 justify-content-start" style={{color: 'darkRed', fontFamily: 'impact',  display: 'flex', justifyContent: 'left'}} href="./category-1.html">Tiny story books</a>
             </h5>
             <p className="card-text text-align text-wrap lh-1">
               This is some text about our tiny story books. And this is some more text. Here goes some additional
@@ -56,14 +61,14 @@ function CategoriesComponent() {
   </div>
   <div className="container-articles">
     <span className="border-bottom">
-      <div className="row card border border-white w-auto cont-alig">
+      <div className="row border-white w-auto cont-alig">
         <div className="col-md-2 small-pic">
           <img className="img-fluid" src={img2} alt="photo books"/>
         </div>
         <div className="col-md-10">
           <div className="card-body">
             <h5 className="card-title">
-              <a className="header-color-2" href="./category-1.html">Tiny photo books</a>
+              <a className="header-color-2" style={{color: 'darkBlue', fontFamily: 'impact', display: 'flex', justifyContent: 'left'}} href="./category-1.html">Tiny photo books</a>
             </h5>
             <p class="card-text text-align text-wrap lh-1">
               This is some text about our tiny photo books.
@@ -94,14 +99,14 @@ function CategoriesComponent() {
   </div>
   <div className="container-articles">
     <span className="border-bottom">
-      <div className="row card border border-white w-auto cont-alig">
+      <div className="row border-white w-auto cont-alig">
         <div className="col-md-2 small-pic">
           <img className="img-fluid" src={img3} alt="notice books"/>
         </div>
         <div className="col-md-10">
           <div className="card-body">
             <h5 className="card-title">
-              <a className="header-color-3" href="./category-1.html">Tiny notice books</a>
+              <a className="header-color-3" style={{color: 'green', fontFamily: 'impact',  display: 'flex', justifyContent: 'left'}} href="./category-1.html">Tiny notice books</a>
             </h5>
             <p className="card-text text-align text-wrap lh-1">
               This is some text about our tiny notice books.
