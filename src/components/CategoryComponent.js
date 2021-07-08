@@ -92,7 +92,7 @@ function CategoryComponent() {
                 <div className="card-body">
                   <h5 className="card-title">Flamingo</h5>
                   <p className="card-text">1.10 EUR</p>
-                  <a href="#" className="btn btn-success">Add to cart</a>
+                  <a href="#" className="btn btn-success" onClick={()=>{ alert('The item was added to cart'); }}>Add to cart</a>
                 </div>
               </div>
            </div>
