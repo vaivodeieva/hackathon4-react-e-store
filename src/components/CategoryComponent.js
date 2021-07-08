@@ -10,6 +10,7 @@ import img7 from '../images/item-7.jpg'
 import img8 from '../images/item-8.jpg'
 import img9 from '../images/item-9.jpg'
 
+  
 
 function CategoryComponent() {
 
@@ -69,7 +70,7 @@ function CategoryComponent() {
                 <div className="card-body" >
                   <h5 className="card-title ">Kitty</h5>
                   <p className="card-text ">0.50 EUR</p>
-                  <a href="#" className="btn btn-success align-center" onclick="addToCart()" id="addedToCartItem">Add to cart</a>
+                  <a href="#" className="btn btn-success align-center" onclick="addToCart()" id="addedToCartItem" onClick={()=>{ alert('The item was added to cart'); }}>Add to cart</a>
                 </div>
               </div>
            </div>
