@@ -50,6 +50,9 @@ function Summary({billingAddress, shippingAddress, products}) {
                     <td colSpan="2">
                         <h4>Total: {totalPrice.toFixed(2)} EUR</h4>
                     </td>
+                    <td>
+                        <button className="btn btn-primary">Continue to proceed</button>
+                    </td>
                 </tr>
             </tbody>
         </table>
