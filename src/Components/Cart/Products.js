@@ -12,8 +12,8 @@ function Products({products, changeProductQty, removeProduct}) {
                 <td>{product.title}</td>
                 <td>
                     {product.quantity}
-                    <button onClick={() => changeProductQty(1, index)} className="btn btn-sm btn-primary mr-3">+</button>
-                    <button onClick={() => changeProductQty(-1, index)} className="btn btn-sm btn-primary">-</button>
+                    <button onClick={() => changeProductQty(1, index)} className="btn btn-sm btn-success mr-3">+</button>
+                    <button onClick={() => changeProductQty(-1, index)} className="btn btn-sm btn-warning">-</button>
                 </td>
                 <td>{product.price.toFixed(2)} Eur</td>
                 <td>{(product.price * product.quantity).toFixed(2)} Eur</td>
