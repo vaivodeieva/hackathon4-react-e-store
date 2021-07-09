@@ -58,7 +58,7 @@ function Cart() {
 
             <div className="row">
                 <div className="col">
-                    <h1>Cart</h1>
+                    <h2 style={{fontFamily: 'impact'}}>Your cart</h2>
                 </div>
             </div>
             <div className="row">
