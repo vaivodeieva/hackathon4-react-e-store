@@ -7,7 +7,7 @@ function Products({products, changeProductQty, removeProduct}) {
         return (
             <tr key={index}>
                 <td>
-                    <img src={product.image} className="img-fluid" style={{maxHeight: '75px'}} />
+                    <img src={product.image} className="img-fluid" style={{maxHeight: '100px', maxWidth: '100px'}} />
                 </td>
                 <td>{product.title}</td>
                 <td>
