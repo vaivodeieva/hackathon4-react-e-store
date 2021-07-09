@@ -11,9 +11,9 @@ import {useState} from 'react';
 function Cart() {
     const [activeTab, setActiveTab] = useState('products');
     const [products, setProducts] = useState([
-        {image: pic1, price: 20, title: 'Product 1', quantity: 3},
-        {image: pic2, price: 19.99, title: 'Product 2', quantity: 5},
-        {image: pic3, price: 42.01, title: 'Product 3', quantity: 2},
+        {image: pic1, price: 0.50, title: 'Product 1', quantity: 3},
+        {image: pic2, price: 0.90, title: 'Product 2', quantity: 5},
+        {image: pic3, price: 1.10, title: 'Product 3', quantity: 2},
     ]);
     const [billingAddress, setBillingAddress] = useState('');
     const [shippingAddress, setShippingAddress] = useState('');
