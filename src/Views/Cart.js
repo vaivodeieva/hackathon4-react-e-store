@@ -2,15 +2,18 @@ import Breadcrumbs from '../Components/Breadcrumbs';
 import Products from '../Components/Cart/Products';
 import Address from '../Components/Cart/Address';
 import Summary from '../Components/Cart/Summary';
+import pic1 from '../images/item-1.jpg';
+import pic2 from '../images/item-2.jpg';
+import pic3 from '../images/item-3.jpg';
 
 import {useState} from 'react';
 
 function Cart() {
     const [activeTab, setActiveTab] = useState('products');
     const [products, setProducts] = useState([
-        {image: 'https://picsum.photos/500/500', price: 20, title: 'Product 1', quantity: 3},
-        {image: 'https://picsum.photos/500/500', price: 19.99, title: 'Product 2', quantity: 5},
-        {image: 'https://picsum.photos/500/500', price: 42.01, title: 'Product 3', quantity: 2},
+        {image: pic1, price: 20, title: 'Product 1', quantity: 3},
+        {image: pic2, price: 19.99, title: 'Product 2', quantity: 5},
+        {image: pic3, price: 42.01, title: 'Product 3', quantity: 2},
     ]);
     const [billingAddress, setBillingAddress] = useState('');
     const [shippingAddress, setShippingAddress] = useState('');
