@@ -1,4 +1,4 @@
-import CategoriesComponent from "../components/CategoriesComponent";
+import CategoriesComponent from "../Components/CategoriesComponent";
 
 function Categories() {
 

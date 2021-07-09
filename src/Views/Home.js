@@ -1,5 +1,5 @@
-import Imageslider from '../components/Imageslider';
-import ThreeCards from '../components/ThreeCards';
+import Imageslider from '../Components/Imageslider';
+import ThreeCards from '../Components/ThreeCards';
 
 function Home() {
   return (

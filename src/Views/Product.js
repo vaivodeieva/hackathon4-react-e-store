@@ -1,5 +1,5 @@
 
-import ProductComponent from "../components/ProductComponent";
+import ProductComponent from "../Components/ProductComponent";
 
 function Product() {
 

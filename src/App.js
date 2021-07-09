@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import Footer from './Components/Footer';
+import Header from './Components/Header';
 import HomePage from './Views/Home';
 import Categories from './Views/Categories';
 import Cart from './Views/Cart';

@@ -1,4 +1,4 @@
-import CategoryComponent from "../components/CategoryComponent";
+import CategoryComponent from "../Components/CategoryComponent";
 
 
 function Category() {
